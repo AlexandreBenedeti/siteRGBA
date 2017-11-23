@@ -21,7 +21,7 @@
                 </div>
 
                 <div class="links">
-                    <a href="projs">Projetos</a>
+                    <a href="projetos02">Projetos</a>
                     <a href="equipe02">Equipe</a>
                     <a href="contato02">Contato</a>
                    

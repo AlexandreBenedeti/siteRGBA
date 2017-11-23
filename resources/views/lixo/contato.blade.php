@@ -1,17 +1,18 @@
-@extends('layout.basic_layout')
+<!DOCTYPE html>
+    
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>RGBA</title>
+        <link rel="stylesheet" type="text/css" href="css/style_contact.css">
+		<link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+        
+    </head>
+    <body>
 
-<link rel="stylesheet" type="text/css" href="css/style_contact.css">
-<link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
-
-@section('cabecalho')
-@parent
-@stop
-
-@section('corpo')
-@parent
-<div class="contato">
-               
-	<h3> Contato <h3>
+	<div class="contato">
+                <h1>RGBA</h1>
+				<h3> Contato <h3>
 				
                 <form name="meu_form" action="conexao.php" method="get"> 
                     <p class="nome"> 
@@ -36,8 +37,5 @@
                     ?>
                 </div>
             </div>
-@stop
-
-@section('rodape')
-@parent   
-@stop
+		</body>
+</html>

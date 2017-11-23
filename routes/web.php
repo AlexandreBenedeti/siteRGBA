@@ -15,8 +15,8 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('projs', function () {
-    return view('projetos');
+Route::get('projetos02', function () {
+    return view('projetos02');
 });
 
 /*Route::get('equipe02', function(){

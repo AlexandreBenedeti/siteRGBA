@@ -13,16 +13,28 @@
        
        <div class ="logo"><img src="_img/logo.png"></div>
         <div class="links">
-                    <a href="projs">Projetos</a>
+                    <a href="projetos02">Projetos</a>
                     <a href="equipe02">Equipe</a>
                     <a href="contato02">Contato</a>                  
         </div> 
        @show 
        
+       @section('corpo')
+       
+       @show
+       
        @section('rodape')
        <div class="rodape">
                 
-           <h3> RGBA </h3>
+           @component('slots.rodape')
+                @slot('marca')
+                   RGBA 
+                @endSlot
+                  
+                @slot('slogan')
+                    education solutions
+                @endslot
+           @endcomponent
                
        </div>
        @show
