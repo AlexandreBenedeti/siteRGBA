@@ -34,3 +34,10 @@ Route::get('projetos02', function () {
 Route::get('contato02', 'paginasController@getRedesSociais');
 
 Route::get('equipe02', 'equipeController@Membros_equipe');
+
+Route::get('queryTest', function () {
+    
+    $equipe = DB::table('equipe')->get();
+    dd($equipe);
+    //echo $equipe;
+});
